@@ -1,0 +1,14 @@
+{
+  "name": "@feizheng/docker-nodejs",
+  "version": "1.0.0",
+  "description": "Docker for nodejs app.",
+  "homepage": "https://github.com/afeiship/docker-nodejs",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
