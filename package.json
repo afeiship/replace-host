@@ -8,7 +8,10 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
-    "start": "node src/app"
+    "start": "node src/app",
+    "docker:build": "docker build . -t afeiship/docker-nodejs",
+    "docker:images": "docker images",
+    "docker:run": "docker run -p 4567:8080 -d afeiship/docker-nodejs"
   },
   "license": "MIT",
   "publishConfig": {
