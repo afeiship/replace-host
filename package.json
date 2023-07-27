@@ -51,5 +51,9 @@
       ],
       "@babel/preset-typescript"
     ]
+  },
+  "dependencies": {
+    "@jswork/extract-domain": "^1.0.3",
+    "@jswork/is-valid-url": "^1.0.2"
   }
 }

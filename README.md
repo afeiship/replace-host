@@ -15,7 +15,11 @@ npm install @jswork/replace-host
 ```js
 import replaceHost from '@jswork/replace-host';
 
-// usage goes here.
+const url1 = 'https://aot-report-h5.dev.com/offline_asc_mobile?task_id=16807';
+const url2 = 'https://sandbox-aot-report-h5.dev.com';
+
+replaceHost(url1, url2);
+// https://sandbox-aot-report-h5.dev.com/offline_asc_mobile?task_id=16807
 ```
 
 ## license
