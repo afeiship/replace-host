@@ -1,6 +1,6 @@
 {
   "name": "@jswork/replace-host",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace host to the other.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -55,5 +55,10 @@
   "dependencies": {
     "@jswork/extract-domain": "^1.0.3",
     "@jswork/is-valid-url": "^1.0.2"
-  }
+  },
+  "keywords": [
+    "domain",
+    "host",
+    "url"
+  ]
 }
